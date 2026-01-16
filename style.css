@@ -1,0 +1,77 @@
+h1{
+    text-align: center;
+    color: purple;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    width:400px;
+    height: 50px;
+    display:flex;
+    justify-content:space-evenly;
+    padding-left: 10px;
+}
+input{padding-left: 20px;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+}
+#plus{
+    cursor:pointer;
+    padding: 5px;
+    width: 30px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color:rgb(225, 208, 108) ;
+    font-size: 30px;
+}
+#task-list{
+    margin-top: 20px;
+    width: 400px;
+}
+.task-item{
+    background: rgb(247, 243, 12);
+    padding:10px;
+    padding-left: 30px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 8px;
+    border-radius: 20px;
+    display: flex;
+    position:relative;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-item{
+    position: relative;
+}
+
+.menu{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 5px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    z-index: 10;
+}
+
+.menu div{
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.menu div:hover{
+    background: #f2f2f2;
+}
+.done{
+    text-decoration: line-through;
+    color: gray;
+}
