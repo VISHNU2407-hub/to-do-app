@@ -13,6 +13,5 @@ This app helps users manage daily tasks with features like editing, deleting, ta
 - **HTML5**
 - **CSS3**
 - **JavaScript (Vanilla JS)**
-## 📂 Project Structure
 
 
